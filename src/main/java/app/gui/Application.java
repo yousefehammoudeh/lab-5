@@ -354,9 +354,6 @@ public class Application {
             }
         });
 
-        getTopGradeButton.addActionListener(new ActionListener() {
-
-        })
         // TODO Task 4: Add action listener for getTopGrade button, follow example of getAverageButton
 
         leaveTeamButton.addActionListener(new ActionListener() {
