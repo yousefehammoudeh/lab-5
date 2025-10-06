@@ -65,4 +65,7 @@ public class Config {
         return new GetAverageGradeUseCase(gradeDataBase);
     }
 
+    public GetTopGradeUseCase getTopGradeUseCase() {
+        return new GetTopGradeUseCase(gradeDataBase);
+    }
 }
